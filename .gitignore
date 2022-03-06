@@ -4,3 +4,5 @@ target/
 rnartistcore.iml
 media/*.svg
 .DS_Store
+venv/
+app/resources/rnartis_files/
