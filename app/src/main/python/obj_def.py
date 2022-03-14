@@ -1,4 +1,4 @@
-from pydantic import BaseModel, Json, validator
+from pydantic import BaseModel
 
 
 class KTSData(BaseModel):

@@ -1,12 +1,11 @@
 
-import os
 import tempfile
 import subprocess
-from flask import Flask, request, make_response, jsonify, Response
+from flask import Flask, Response
 from obj_def import KTSData, KTSString
 from Files.KTS import KTS
 from pydantic_webargs import webargs
-from flask import send_file, after_this_request
+from flask import send_file
 
 
 app = Flask(__name__)
